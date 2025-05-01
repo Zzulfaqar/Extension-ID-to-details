@@ -31,11 +31,7 @@
 4. Run PowerShell and navigate to the script folder.
 
 ```powershell
-# Optional: allow local scripts for the session
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
-# Launch the tool
-.\Get-ExtensionInfo.ps1
+powershell -ExecutionPolicy Bypass -File .\new5.ps1
 ```
 
 ---
